@@ -1,0 +1,21 @@
+{
+	"id": "cof-mbe-addon",
+	"name": "cof-mbe-addon",
+	"title": "COF Mbe Addon",
+	"description": "Add a button to copy item's description to chat<br>To use with COF V9 fan made system",
+	"version": "1.0.0",
+	"minimumCoreVersion": "9",
+	"compatibleCoreVersion": "9",
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		}
+	],
+	"scripts": [
+		"scripts/main.js"
+	],
+	"styles": [],
+	"authors": []
+}

@@ -17,5 +17,10 @@
 		"scripts/main.js"
 	],
 	"styles": [],
-	"authors": []
+	"authors": [],
+	"url": "https://github.com/MichelBen/cof-mbe-addon",
+	"bugs": "https://github.com/MichelBen/cof-mbe-addon/issues",
+	"manifest": "https://github.com/MichelBen/cof-mbe-addon/releases/latest/download/module.json",
+	"download": "https://github.com/MichelBen/cof-mbe-addon/releases/latest/download/module.zip"
+
 }

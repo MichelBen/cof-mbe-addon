@@ -58,6 +58,8 @@ Hooks.on("renderActorSheet",  (sheet, page, p3) => {
 			let divElem = document.createElement("div");
 			divElem.className = "item-controls ";
 			divElem.className += Cof_mbe_addon.ID+'-button';
+			divElem.style.top = "25%";
+			divElem.style.position = "relative";
 			let iElem = document.createElement("i");
 			iElem.className = "fas fa-comments item-to-chat";
 			divElem.appendChild(iElem);

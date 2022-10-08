@@ -16,7 +16,7 @@
 	"scripts": [
 		"scripts/main.js"
 	],
-	"styles": [],
+	"styles": ["./css/style.css"],
 	"authors": [],
 	"url": "https://github.com/MichelBen/cof-mbe-addon",
 	"bugs": "https://github.com/MichelBen/cof-mbe-addon/issues",

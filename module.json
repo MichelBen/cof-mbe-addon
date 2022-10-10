@@ -1,11 +1,13 @@
 {
 	"id": "cof-mbe-addon",
 	"name": "cof-mbe-addon",
-	"title": "COF Mbe Addon",
-	"description": "Add a button to copy item's description to chat<br>To use with COF V9 fan made system",
-	"version": "0.0.3",
+	"title": "Chroniques Oubliées Fantasy - cof-mbe-util",
+	"description": "<p>This module must be used with 'Chroniques Oubliées Fantasy V9' fanmade edition <a href='https://github.com/ZigmundKreud/cof'>(see github)</a></p><p>Functionalities</p><ul><li>Add a button to copy item's description to chat</li><li>add items stats in inventory tab</li></ul>",
+	"version": "1.0.0",
+	"authors": ["BMichel"],
 	"minimumCoreVersion": "9",
 	"compatibleCoreVersion": "9",
+	"systems": ["cof"],
 	"languages": [
 		{
 			"lang": "en",
@@ -17,10 +19,9 @@
 		"scripts/main.js"
 	],
 	"styles": ["./css/style.css"],
-	"authors": [],
+
 	"url": "https://github.com/MichelBen/cof-mbe-addon",
 	"bugs": "https://github.com/MichelBen/cof-mbe-addon/issues",
 	"manifest": "https://github.com/MichelBen/cof-mbe-addon/releases/latest/download/module.json",
 	"download": "https://github.com/MichelBen/cof-mbe-addon/releases/latest/download/module.zip"
-
 }

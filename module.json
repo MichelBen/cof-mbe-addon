@@ -15,7 +15,7 @@
 			"path": "lang/en.json"
 		}
 	],
-	"scripts": [
+	"esmodules": [
 		"scripts/main.js"
 	],
 	"styles": ["./css/style.css"],

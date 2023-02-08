@@ -1,3 +1,26 @@
 {
-	
+	"cof-mbe-addon.attributes.defence.rule": "DEFENSE",
+	"cof-mbe-addon.attributes.initiative.rule": "INITIATIVE",
+	"cof-mbe-addon.attributes.vitality.rule": "VITALITE",
+	"cof-mbe-addon.attributes.hp.rule": "Points de Vie",
+	"cof-mbe-addon.attributes.xp.rule": "Points d'expérience",
+	"cof-mbe-addon.attributes.init.rule": "Initiative",
+	"cof-mbe-addon.attributes.def.rule": "Défense",
+	"cof-mbe-addon.attributes.level.rule": "Niveau",
+	"cof-mbe-addon.attributes.nc.rule": "Niveau de créature",
+	"cof-mbe-addon.attributes.hd.rule": "Dé de vie",
+	"cof-mbe-addon.attributes.sc.rule": "Incantation",
+	"cof-mbe-addon.attributes.over.rule": "ENCOMBREMENT",
+	"cof-mbe-addon.attacks.melee.rule": "CONTACT",
+	"cof-mbe-addon.attacks.ranged.rule": "DISTANCE",
+	"cof-mbe-addon.attacks.magic.rule": "MAGIQUE",
+	"cof-mbe-addon.attributes.mp.rule" : "consommation : niveau du sort -1",
+	"cof-mbe-addon.attributes.rp.rule" : "Il faut se reposer 5 minutes et dépenser 1 PR pour gagner un nombre de PV égal à : [1 Dé de vie + Mod. de CON + niveau] PV",
+	"cof-mbe-addon.attributes.fp.rule" : "Chaque PC dépensé permet d’ajouter +10 sur un jet de d20. L’utilisation d’un point de chance se fait après avoir pris connaissance du résultat.",
+	"cof-mbe-addon.attributes.dr.rule" : "RD",
+	"cof-mbe-addon.levelup.rule" : "",
+	"cof-mbe-addon.rest.rule" : "PV : Dé vie + CON, PM : tous,  PR : +1",
+	"cof-mbe-addon.rest.label" : "Repos",
+	"cof-mbe-addon.rest.abbrev" : "Repos"
+
 }

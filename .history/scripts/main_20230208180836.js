@@ -190,8 +190,8 @@ class Cof_mbe_addon {
 		let journalToDisplaySheet = "";
 		try {
 
-			journalToDisplaySheet = await this.getJournalOfCaractTipSheet(caract);
-			journalToDisplaySheet.render(true);
+			journalToDisplaySheet = this.getJournalOfCaractTipSheet(event);
+			journalToDisplaySheet.render;
 		}catch (error) {
 			console.error(error);
 			let msg = "Journal not found : " + journalCaractName;
@@ -202,19 +202,19 @@ class Cof_mbe_addon {
 	
 
 
-	static async getJournalOfCaractTipSheet(caract) {
-		//let caract = event.currentTarget.getAttribute("data-" +Cof_mbe_addon.ID+ "_caract");
+	static async getJournalOfCaractTipSheet(event) {
+		let caract = event.currentTarget.getAttribute("data-" +Cof_mbe_addon.ID+ "_caract");
 		let journalCaractName = this.getJournalOfCaractTipName(caract);
 		let journalToDisplaySheet = "";
 		try {
-			let journalCaractSheet = await game.journal.getName(journalCaractName).sheet;
+			let journalCaractSheet = game.journal.getName(journalCaractName).sheet;
 			// texte du journal
 			let journalCaractSheetContent = journalCaractSheet.object.data.content;
 			if ( journalCaractSheetContent.startsWith("<p>@JournalEntry")) {
 				let matchResult = journalCaractSheetContent.match(/^.*@JournalEntry\[(.*)\]/);
 				if (matchResult.length > 1) {
 					let journalToDisplayId = matchResult[1];
-					journalToDisplaySheet = await game.journal.get(journalToDisplayId).sheet;
+					journalToDisplaySheet = game.journal.get(journalToDisplayId).sheet;
 				}
 			}else{
 				journalToDisplaySheet = journalCaractSheet;
